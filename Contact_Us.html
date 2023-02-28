@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Contact_Us.css">
+</head>
+<body>
+    <div class="frame">
+        <form action="/sent.html" method="get" id="form-cont">
+            <h1>Contact Us</h1>
+            <p id="name">Name</p>
+            <input type="text" id="name_inp" placeholder="Tell us your name!">
+            <p class="err" id="name_err">* Name requires at least 3 characters</p>
+            <p id="email">Email</p>
+            <input type="text" id="email_inp" placeholder="Your email address">
+            <p class="err" id="email_err_blank">* Email should not be blank</p>
+            <p class="err" id="email_err_atdotcom">* Email should includes @ and .com</p>
+            <p id="subject">Subject</p>
+            <input type="text" id="subj_inp" placeholder="What's your discussion about?">
+            <p id="message">Message</p>
+            <textarea type="text" id="msg_inp" placeholder="What's your message?"></textarea>
+            <p class="err" id="msg_err">* Message requires at least 3 words</p>
+            <button type="submit" id="subm">Send</button>
+        </form>
+        
+    </div>
+
+    <script src="Contact_Us.js"></script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+body{
+    position: relative;
+    height: 1300px;
+    background-image: linear-gradient(#8002CF,#02C3CF);
+}
+
+.frame{
+    position: absolute;
+    width: 846px;
+    height: 1175px;
+    left: 19.5%;
+    top: 60px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10%;
+}
+
+h1{
+    position: absolute;
+    width: 690px;
+    left: 78px;
+
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 75px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: white;
+}
+
+#sent{
+    letter-spacing: normal;
+    left: 25%;
+}
+
+p{
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+
+    width: 675px;
+    height: 49px;
+    left: 85px;
+    position: absolute;
+}
+
+#name{
+    top: 125px;
+}
+#email{
+    top: 275px;
+}
+#subject{
+    top: 425px;
+}
+
+#message{
+    top: 575px;
+}
+
+.err{
+    color: maroon;
+    font-size: 23px;
+    display: none;
+}
+#name_err{
+    top: 240px;
+}
+
+#email_err_blank{
+    top: 390px;
+}
+
+#email_err_atdotcom{
+    top: 390px;
+}
+
+#msg_err{
+    top: 940px;
+}
+
+input{
+    position: absolute;
+    border-radius: 64px;
+    width: 670px;
+    height: 59px;
+    left: 78px;
+    border: none;
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-size: 30px;
+    padding-left: 3%;
+    padding-bottom: 0.75%;
+}
+
+#name_inp{
+    top: 200px;
+}
+
+#email_inp{
+    top: 350px;
+}
+
+#subj_inp{
+    top: 500px;
+}
+
+#msg_inp{
+    position: absolute;
+    border-radius: 64px;
+    width: 645px;
+    left: 78px;
+    border: none;
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-size: 30px;
+    padding-left: 3%;
+    padding-top: 1.5%;
+    padding-right: 3%;
+    padding-bottom: 1.5%;
+    resize: none;
+
+    top: 650px;
+    height: 285px;
+    border-radius: 32px;
+}
+
+button{
+    position: absolute;
+    width: 163px;
+    height: 62px;
+    left: 335px;
+    top: 1025px;
+
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+
+    color: blue;
+    background-color: transparent;
+    border-color: blue;
+    border-width: 5px;
+    border-radius: 27px;
+}
+
+#sent_btn{
+    width: 163px;
+    height: 62px;
+    left: 45%;
+    top: 250px;
+    border-color: white;
+    color: white;
+}
+
+button:hover{
+    color: blue;
+    background-color: white;
+    border-color: blue;
+    border-width: 3px;
+}
+
+#sent_btn:hover{
+    color: blue;
+    background-color: white;
+    border-color: blue;
+    border-width: 3px;
+}
